@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+body{
+ font-style: normal;
+ background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+ display: flex;
+ justify-content: center;
+
+}
+.container{
+    width: 375px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    display: none;
+}
+#logo{
+    width: 100px;
+    height: 21px;
+    margin: 31px 243px 0px 32px;
+}
+#hero{
+    height: 250px;
+    width: 376px;
+    position:relative;
+    top: 31px;
+}
+#desktop{
+   display: none;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 94px 32px 92px 32px;
+    width: 311px;
+    height: 310px;
+    text-align: center; 
+}
+h1{
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 42px;
+    font-family: 'Josefin Sans';
+    color: #CE9898;
+}
+h2{
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 10.8254px;
+    color: #423A3A;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+}
+p{
+    margin: 16px 0px;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #CE9898;
+}
+.email{
+    height: 48px;
+    margin: 32px 0px 92px 0px;
+    color: rgba(206, 152, 152, 1);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border: 1px solid #CE9898;
+    border-radius: 28px;
+}
+#button{
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+    border-radius: 28px;
+    width: 64px;
+    height: 48px;
+    border-color: rgba(248, 191, 191, 1) rgba(238, 139, 139, 1);
+}
+.box-button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#arrow{
+    width: 8.84px;
+    height: 17.67px;
+}
+span{
+    padding-right: 126px;
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    color: #CE9898;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+@media screen and ( min-width:1440px) {
+body {
+    display: block;
+    background-image:url(bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+#hero{
+    display: none;
+}   
+#desktop{
+    display:flex;
+    order: 2;
+    margin: 0px 0px 0px 220px;
+}
+.box{
+    width: 445px;
+    height: 404px;
+    text-align: left;
+    margin: 136px 0px 0px 165px;
+}
+.container{
+    flex-direction: row;
+}
+header{
+display: none;
+}
+.photos{
+    order: 2;
+}
+.first{
+    width: 830px;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#logo{
+    width: 158px;
+    height: 33px;
+}
+.head{
+    width: 158px;
+    margin:70px 0px 0px 150px;
+    display: flex;
+}
+h1{
+    font-size: 64px;
+    letter-spacing: 17.3206px;
+    line-height: 64px;
+}
+h2{
+    font-size: 64px;
+    line-height: 71px;
+    letter-spacing: 17.3206px;
+}
+p{
+    font-size: 16px;
+    line-height: 28px;
+}
+#button{
+    width: 100px;
+    height: 56px;
+}
+.email{
+    height: 56px;
+    width: 445px;
+}
+span{
+    padding-right: 209px;
+    font-size: 16px;
+}
+}
+
+
+
